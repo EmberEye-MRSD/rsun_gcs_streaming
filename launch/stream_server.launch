@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+   <node pkg="rsun_video_streaming" type="video_stream_server.py" name="video_stream_server" output="screen" respawn="false" respawn_delay="0">
+      <rosparam file="$(find rsun_video_streaming)/config/stream_server.yaml" command="load" ns="" />
+   </node>
+
+</launch>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+   <node pkg="rsun_video_streaming" type="video_stream_client.py" name="video_stream_client" output="screen" respawn="false" respawn_delay="0">
+   </node>
+
+</launch>
