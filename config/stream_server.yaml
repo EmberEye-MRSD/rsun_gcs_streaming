@@ -1,5 +1,5 @@
 image_topics: ['/flir_boson/image_raw', '/camera/color/image_raw', '/camera/infra1/image_rect_raw']
 text_overlays: ['FLIR Boson', 'RealSense Color', 'RealSense Infra1']
-udp_base_port: 5000
-udp_host: '127.0.0.1'
+udp_base_port: 9000
+udp_host: '192.168.144.15'
 fps: 30
